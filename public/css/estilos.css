@@ -1,0 +1,502 @@
+header{
+    margin-bottom: 20px;
+   padding: 0;
+
+}
+main {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    
+   
+}
+
+header, footer {
+    background-color: black;  
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color:rgb(243, 242, 242);
+}
+footer{
+    margin-bottom: 0%;
+}
+header nav{
+
+    line-height: 100px;
+    
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+   font-size: 125%;
+   /* 22px; */
+  
+    margin-left: 4%;
+    font-size: 26px;
+display: inline-block;
+margin-top:3.5%;
+margin-bottom: 3.6%;
+height: 100%;
+}
+
+nav a, h1{    
+    font-family: 'Comfortaa', cursive;
+font-weight: bold;
+}
+p, label, input, select option, h2, h3{font-family: 'Comfortaa', cursive;
+font-size: 19px;}
+h1{
+    text-transform: uppercase;
+}
+
+input{
+    font-size: 14px;
+}
+
+select option{ font-size: 16px;}
+h2{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p{
+    line-height: 170%;
+}
+
+
+div .filtro{
+    background-color:#cd6661; 
+font-family: 'Comfortaa', cursive;
+width:20%;
+}
+
+div .buscar{
+    text-align:"center";
+    margin-right:45%;
+
+}
+
+div .ingreso{
+    background-color: #e31c2c;  
+    width: 25%;
+    height: 40%;
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(165, 42, 42, 0.459);
+    width: 350px;
+    text-align: center;
+    border-radius: 25%;
+    float: right;
+    line-height: 100px;  
+
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.contacto input[type=text], .contacto input[type=email]{
+width: 60%;
+height: 40%;
+margin: 0 auto;
+}
+.contacto textarea{
+    width: 85%;
+    height: 300px;
+margin: 0 auto;
+}
+.contacto{
+   text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    font-family: 'Comfortaa', cursive;
+    width: 80%;
+    text-align: center;
+    border-spacing: 23px;
+    margin: 0 auto;
+    font-size: 19px;
+
+}
+th{
+    font-size: 25px;
+}
+
+table button a{
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+button{
+    border: none;
+  width: 10%;
+  box-shadow: inset 6px 6px 20px -1px rgb(194, 177, 132),
+  inset -6px -6px 20px -1px rgb(194, 177, 132);
+
+}
+
+#artista{
+    display: grid;
+    width: 99vw;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-columns: 10vh;
+    grid-auto-rows: 60vh;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+#artista figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#artista figure img{
+width: 80%;
+object-fit: cover;
+background-position: center center;
+height: 60%;
+}
+figcaption{
+    text-align: center;
+}
+
+table{
+    background-color: rgba(5, 5, 44, 0.781);
+    color: white;
+}
+
+.filtro h4{
+    margin-left: 10%;
+}
+.filtro input{
+    margin-left: 5%;
+}
+
+.col .card{
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px, 2px, rgba(0,0,0,0.24);
+}
+
+.pagination, .social ul{
+    list-style: none;
+ /*   position:relative;*/
+    font-size: 40px;
+    width: 100%;
+    float: none;
+    margin-bottom: 0%;
+margin-top: 3%;
+text-align: center;
+}
+.pagination li, .social li{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    
+}
+.pagination, .social li a{
+    text-decoration: none;
+    color:rgb(243, 242, 242);
+    font-size: 40px;
+
+
+}
+.texto{
+    align-items: center;
+    justify-content: center;
+width: 600px; ;
+height: 200px;
+position: absolute;
+top: 60%;
+left: 35%;
+margin-top: 0%;
+margin-left: -100px;
+font-weight: bolder;
+text-align: center;
+
+}
+.fondo{
+ 
+    width: 1349px; 
+    height: 380px;
+    overflow:hidden;
+
+}
+.fondo img{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.paginador{
+    width: 100%;
+    margin-top: 85%;
+    position: static;
+    margin-left: 17%;
+}
+
+main{
+    background-image: url(../productos/opcion2.jpg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color:rgb(243, 242, 242);
+margin-top: -2%;
+margin-bottom: auto;
+object-fit:inherit;
+}
+.card{
+    background-image: url(../productos/opcion3.jpg);
+}
+.filtro{
+    background-image: url(../productos/fondo.jpg);
+    overflow: hidden;
+   
+}
+img{
+    object-fit: cover;
+}
+/*red social*/
+
+
+.social ul li a{
+  
+    color: #fff;
+    background:#000;
+
+    font-size: 46px;
+    width: 3%;
+    height: 1%;
+
+}
+
+.social ul{
+    list-style: none;
+    position:relative;
+
+margin-top: 2%;
+margin-bottom: 1%;
+
+}
+.social ul li{
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.social ul li a{
+    text-decoration: none;
+    color:rgb(243, 242, 242);
+    font-size: 40px;
+
+}
+
+.social ul li .icon-facebook2{ color: white;}
+.social ul li .icon-instagram{color: white}
+.social ul li .icon-youtube{color:  white;}
+.pregunta h2{
+text-align: center;
+}
+.pregunta p{
+margin-right: 0.5%;
+ text-align: left;   
+}
+
+.slider img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.slider input[type="radio"]{
+    display: none;
+}
+
+.slider input[type="radio"]:checked ~ img{
+opacity: 1;
+}
+
+.slider input[type="radio"]+ label{
+    position: relative;
+z-index: 50;
+margin: 10px;
+
+display: block;
+width: 11px;
+height: 11px;
+background: white;
+border-radius: 50%;
+border: 2px solid black;
+cursor: pointer;
+}
+
+.slider input[type="radio"]:checked + label{
+    background: black;
+    border: 3.5px solid white;
+}
+
+#centrar{ text-align: center;
+ margin-top: 5%;}
+
+ .modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    width:100%; 
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.imagenes a{
+    color: #fff;
+font-size: 40px;
+font-weight: 1000;
+text-decoration: none;
+margin: 0 10px;
+background-color: #333131;
+border: black solid 1.5px;
+border-radius: 25%;
+}
+
+.imagenes{
+
+   
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagenes img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+#especificaciones{
+    text-align: center;
+}
+.cuerpo, .mango, .electronica, .accesorios, .miscelaneos{
+    margin-top: 5%;
+}
+.cuerpo, .electronica {
+    width: 15%;
+    text-align: center;
+    margin-left: 42.5%;
+}
+.mango{
+    width: 30%;
+    margin-left: 35%;
+}
+.accesorios{
+    width: 25%;
+margin-left: 37.5%;
+}
+
+.miscelaneos{
+    width: 35%;
+    margin-left: 32.5%;
+}
+
+
+#header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin-top: 0%;
+           }
+    /*
+    #item2 li a{
+        margin-top: -10%;
+        margin-bottom: -20%;
+    }*/
+           #header #item{
+               float: left;
+               
+           }
+    
+          #header #item a{
+            background-color: black; 
+            color:rgb(243, 242, 242);
+            padding: 14px 28px;
+            display: block;  
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 32px;
+       text-decoration: none;
+    
+        }
+        #header #categoria{
+            display: none;
+            position: absolute;
+        } 
+    
+        #header #item:hover #categoria{
+            display: block;
+            width: 16.5%;
+            z-index: 1;
+        }
+    
+        #header #item a:hover{
+            background-color: #434343;
+       
+        }
+        #categoria #acusticos{
+            display: none;
+        }
+        #categoria #item2:hover #acusticos{
+            display: block;
+            width: 71%;
+            left: 88%;
+ 
+          margin-top: -30%;
+            position: absolute;
+            z-index: 1;
+          
+        }
+     
+        #acusticos li{
+            text-align: left;}
+        
+        #categoria #electricos{
+            display: none;
+        }
+        #categoria #item3:hover #electricos{
+            display: block;
+            width: 71%;
+            left: 88%;
+            margin-top: -32%;
+            position: absolute;
+        }
+    .nav{
+    text-align: center;
+    margin-top: 10%;
+    }
+    .nosotros{
+        list-style: circle;
+        text-align: center;
+    }
